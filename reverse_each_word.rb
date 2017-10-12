@@ -6,3 +6,10 @@ def reverse_each_word(phrase)
  end
  arr.join(" ")
 end
+
+
+def reverse_each_word(phrase)
+  phrasd.collect do |word|
+    "#{word.reverse}"
+  end
+end
