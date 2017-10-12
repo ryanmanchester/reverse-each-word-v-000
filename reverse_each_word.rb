@@ -6,9 +6,3 @@ def reverse_each_word(phrase)
  end
  arr.join(" ")
 end
-
-def reverse_each_word(phrase)
-  phrase.split.collect do |word|
-    puts "#{word.reverse}"
-  end
-end
