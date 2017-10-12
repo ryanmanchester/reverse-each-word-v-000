@@ -5,6 +5,6 @@ def reverse_each_word(phrase)
     arr << "#{word.reverse}"
 
   end
- "#{arr}"
+ arr.join
 
  end
