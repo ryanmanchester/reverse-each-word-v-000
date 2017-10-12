@@ -9,7 +9,7 @@ end
 
 
 def reverse_each_word(phrase)
-  phrasd.collect do |word|
+  phrase.collect do |word|
     "#{word.reverse}"
   end
 end
