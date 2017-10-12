@@ -10,4 +10,4 @@ def reverse_each_word(phrase)
    "#{word.reverse}"
  end
 
- end
+ 
