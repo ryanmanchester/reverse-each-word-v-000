@@ -6,6 +6,6 @@ def reverse_each_word(phrase)
     arr << "#{words.reverse}"
   end
   puts sentence
-    
+
 
 end
